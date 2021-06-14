@@ -17,7 +17,7 @@ title="PHP Unit Task Runner"
 # Possible command names of this tool
 local_command="phpunit.phar"
 vendor_command="docroot/vendor/bin/phpunit"
-global_command="phpunit"
+global_command="./docroot/vendor/bin/phpunit"
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
