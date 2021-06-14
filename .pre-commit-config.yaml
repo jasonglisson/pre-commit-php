@@ -1,6 +1,6 @@
 # Pre-commit
 # @see http://pre-commit.com/
-- repo: git://github.com/pre-commit/pre-commit-hooks
+- repo: git://github.com/jasonglisson/pre-commit-php
   sha: master
   hooks:
     - id: check-yaml
